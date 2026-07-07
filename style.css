@@ -85,11 +85,12 @@ nav ul a:hover { color: var(--primary); text-decoration: none; }
 }
 
 .oli-hero {
+  display: block;
   width: 120px;
   height: 120px;
   object-fit: contain;
-  margin-bottom: 1.25rem;
-  filter: drop-shadow(0 4px 12px rgba(196,98,58,0.15));
+  margin: 0 auto 1.25rem;   /* explicitly centered above the badge */
+  filter: drop-shadow(0 4px 12px rgba(122,152,32,0.18));
 }
 
 .hero h1 {
